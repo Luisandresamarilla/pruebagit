@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "arabe";
+  src: url("../fuentes/MATURASC.ttf")
+  format('truetype');
+}
+@font-face {
+  font-family: "oscurito";
+  src: url("../fuentes/oscura.ttf")
+  format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@900&display=swap');
+
+p {  color: red;   }
+
+.primero {  color: green;
+            background-color: red;
+            width: 50vw;
+            height: 50vh;
+           overflow: auto;
+           font-family: "arabe";
+         }
+.potrero {display:none;}
+@media (max-width: 575px){
+  .primero {display:none;}
+  .potrero {display: block;}
+}
+
+
+.fondo { background-color: yellow;
+         color: white;
+
+        }
+ol li a {font-size: 32px;}
+ol li {display: inline-block;}
+ol li a:link {color: red;}
+ol li a:active {color: black;}
+ol li a:visited {color: yellow;}
+ol li a:hover {
+  color: green;
+  background-color: red;
+  font-size: 50px;
+}
+ol ::before {content: "hola mundo";}
+
+.formu {background-color: blue;}
+
+.seccion1 {width: 50%;
+float: left;}
+.seccion2 {background-color: green;
+           width: 50%;
+         float: left;
+         font-size: 45px;
+           font-family: 'Italianno', cursive;}
+.luis {clear: both;
+        font-family: "oscurito";}
+.imagen {width: 50vw;
+      height: 50vh;}
+
+.imagen img { width: 100%;
+             height: 100%;}
+.segundo {font-family: 'Gluten', cursive;}
